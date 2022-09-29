@@ -1,0 +1,52 @@
+.addWordForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  height: 250px;
+  width: 400px;
+}
+
+.inputsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 100%;
+}
+
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 5px 0;
+}
+
+.inputLabel {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.input {
+  border-radius: 10px;
+  padding: 10px;
+
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+.submitButton {
+
+  background-color: green;
+
+  border: none;
+  border-radius: 10px;
+
+  color: white;
+
+  height: 50px;
+  width: 100%;
+
+  &:hover {
+    cursor: pointer;
+  }
+}

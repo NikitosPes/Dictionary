@@ -1,0 +1,23 @@
+.linksContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  background-color: blue;
+
+  border-bottom-left-radius: 15%;
+  border-bottom-right-radius: 15%;
+
+  color: white;
+
+  height: 100%;
+  width: 100%;
+}
+
+
+.link {
+  color: inherit;
+
+  text-decoration: none;
+  font-size: 1.2em;
+}
